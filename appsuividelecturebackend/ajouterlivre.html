@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ajout nouveau livre</title>
+</head>
+<body>
+   
+        <form id="registrationForm" method="POST" action="ajouter_livre.php">
+  <div class="form-group">
+    <label for="titre">Nom du livre :</label>
+    <input type="text" id="titre" name="titre" required>
+  </div>
+  <div class="form-group">
+    <label for="auteur">Auteur :</label>
+    <input type="text" id="auteur" name="auteur" required>
+  </div>
+  <p id="donne"></p>
+  <button class="btn" id="ajouterlivre" type="submit">Ajouter</button>
+</form>
+
+</body>
+</html>

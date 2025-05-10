@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    height: 60px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    z-index: 20;
+    background-color: #fff;
+    }
+
+    .menu {
+        display: flex;
+    }
+    nav > ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    nav > ul::after{
+         content: "";
+         display: block;
+         clear: both;
+    }
+    nav li {
+        list-style-type: none;
+    }
+    nav > ul > li {
+        float: left;
+        position: relative;
+        margin: 20px;
+        font-size: 20px;
+        }
+        li:hover{
+            cursor: pointer;
+            color: rgb(13, 135, 165);
+        }
+      span{
+        color: rgb(13, 135, 165);
+      }
+      #livre{
+      margin: 10% 30%;
+      width: 25%;
+      }
+      #livre h2{
+        font-size: 35px;
+        text-align: center;
+        color: rgb(13, 135, 165);
+      }
+     
+     .card{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+       
+     } 
+     .bouton{
+        margin: 0;
+        background-color: rgb(8, 85, 8);
+        border: none;
+        color: #fff;
+        padding: 5px;
+        border-radius: 5px;
+     }
+     .bouton:hover{
+        cursor: pointer;
+        color: #000;
+     }
+     .card img{
+        width: 120px;
+        margin: 24px;
+     }
+     .btn{
+        background-color:   rgb(13, 135, 165);
+        color: #fff;
+        border: none;
+     }
+     .btn:hover{
+        cursor: pointer;
+        color: black;
+     }
+     .card-title{
+        font-size: 18px;
+     }
+     .card-body{
+        text-align: center;
+     }
+     li a{
+        text-decoration: none;
+        background-color: rgb(13, 135, 165);
+        color: #fff;
+        padding: 8px;
+        border-radius: 5px;
+     }
+
+
+/*formulaire inscription*/
+      .container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      h2 {
+        text-align: center;
+      }
+      
+      .form-group {
+        margin-bottom: 20px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      #ajouterlivre{
+        width: 100%;
+      }
+      .btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      
+  
+      .btn:hover {
+        background-color: #0056b3;
+      }
+      
+      #message {
+        text-align: center;
+        margin-top: 20px;
+      }
+      /*formulaire connecter*/
+    
+    
+    form {
+        max-width: 300px;
+        margin: 45px auto;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    .btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+       text-align: left;
+    }
+    
+    .btn:hover {
+        background-color: #45a049;
+    }
+   
+    #delete{
+      margin-top: 10px;
+      
+    }
+    button{
+      margin: 0 auto;
+      padding: 6px;
+     
+    }
+    footer{
+        text-align: center;
+    }
+    
